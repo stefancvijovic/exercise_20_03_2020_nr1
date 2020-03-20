@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import repository.IRepository;
 import service.MessageService;
-@Component(value = "messageService")
+//@Component(value = "messageService")
 public class MessageServiceImpl implements MessageService {
 	private IRepository repository;
 	
